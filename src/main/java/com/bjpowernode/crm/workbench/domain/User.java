@@ -10,6 +10,7 @@ public class User implements Serializable {
     private String loginPwd;
     private String email;
     private String sex;
+    private String param2;
 
     //为空代表，永不过期，不为空代表失效时间
     private String expireTime;//过期时间
